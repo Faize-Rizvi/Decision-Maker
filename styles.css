@@ -68,39 +68,43 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   }
   
- /* Adjust size of input fields */
+  /* Adjust size of input fields */
 .decision-input {
-  width: calc(50% - 10px);
-  padding: 12px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  margin-right: 10px;
-}
-
-/* Adjust position of decision buttons */
-.decision-buttons {
-  margin-top: 20px; /* Adjust margin to position buttons */
-  display: flex;
-  justify-content: space-between; /* Align buttons horizontally */
-}
-
-/* Add hover effect for decision buttons */
-.decision-btn {
-  padding: 12px 24px;
-  font-size: 18px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  cursor: pointer;
-  border-radius: 6px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
-  margin-top: 10px;
-}
-
-.decision-btn:hover {
-  background-color: #0056b3;
-  transform: translateY(-2px);
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-}
+    width: calc(50% - 10px);
+    padding: 12px; /* Decrease padding to make input fields slightly smaller */
+    font-size: 16px; /* Decrease font size slightly */
+    border: 1px solid #37ff00;
+    border-radius: 6px;
+    margin-right: 10px;
+    background-color: #37ff00;
+    
+  }
+  
+  /* Adjust position of decision buttons */
+  .decision-buttons {
+    margin-top: 30px; /* Adjust margin to position buttons */
+    text-align: center;
+  }
+  
+  /* Add hover effect for decision buttons */
+  .decision-btn {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  }
+  
+  .decision-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  body{
+    text-align: center;
+    margin-top:50px ;
+  }
