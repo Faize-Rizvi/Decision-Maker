@@ -1,0 +1,106 @@
+/* Add this style for the timeout message */
+.timeout-message {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  .timeout-message h2 {
+    font-size: 24px;
+  }
+  
+  .timeout-message ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .timeout-message li {
+    font-size: 18px;
+  }
+  
+  .timeout-message p {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+/* Add hover effect for decision buttons */
+.decision-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .decision-btn:hover {
+    background-color: #0056b3;
+  }
+   
+
+    /* Adjust position of decision buttons */
+.decision-buttons {
+    margin-top: 40px; /* Increase margin to move buttons lower */
+  }
+  
+  /* Add hover effect for decision buttons */
+  .decision-btn {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  }
+  
+  .decision-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+ /* Adjust size of input fields */
+.decision-input {
+  width: calc(50% - 10px);
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+/* Adjust position of decision buttons */
+.decision-buttons {
+  margin-top: 20px; /* Adjust margin to position buttons */
+  display: flex;
+  justify-content: space-between; /* Align buttons horizontally */
+}
+
+/* Add hover effect for decision buttons */
+.decision-btn {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  margin-top: 10px;
+}
+
+.decision-btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
